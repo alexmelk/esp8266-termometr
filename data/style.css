@@ -1,0 +1,154 @@
+﻿html, body { height: 100%; }
+body { 
+    background: #f2f2f2; 
+    font-family: "Segoe UI"!important;
+    font-weight: 500!important;
+    font-style: normal!important;
+    position: absolute;
+    width: 100%;
+    line-height: unset!important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-link
+{
+    color:white!important;
+}
+.nav-link.active
+{
+    color:rgba(255, 255, 255, 0.747)!important;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color:#007bff;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row
+{
+    justify-content: center;
+}
+.center
+{
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    width: 100%!important;
+}
+
+.wifiConfForm
+{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 150pt;
+    justify-content: center;
+    width: 100%!important;
+}
+
+
+/*Стиль для индикатора*/
+.container { 
+    width: 300px; 
+    margin: 10px auto 0;     
+    position: relative;
+    top:100px!important;
+    margin-bottom: 1%;
+}
+.de .den, .de .dene, .de .denem, .de .deneme { position: absolute;  left: 50%; top: 50%; box-sizing: unset!important;}
+.de {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background-color: transparent;
+}
+.den {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: -105px 0 0 -105px;
+    border-radius: 100%;
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, .5), 0 2px 20px rgba(255, 255, 255, 1);
+    background: linear-gradient(crimson, gold, rgb(166, 255, 22), rgb(132, 255, 255), crimson);
+    position:relative;
+    animation: spin 25s alternate infinite;
+}
+.dene {
+    width: 180px;
+    height: 180px;
+    margin: -90px 0 0 -90px;
+    border-radius: 100%;
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, .4), 0 3px 13px rgba(0, 0, 0, .85);
+    background: #f2f6f5;
+    background: -moz-linear-gradient(top, #f2f6f5 0%, #cbd5d6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f6f5), color-stop(100%, #cbd5d6));
+    background: -webkit-linear-gradient(top, #f2f6f5 0%, #cbd5d6 100%);
+    background: -o-linear-gradient(top, #f2f6f5 0%, #cbd5d6 100%);
+}
+.denem {
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    border-radius: 100%;
+    background: #cbd5d6;
+    background: -moz-linear-gradient(top, #cbd5d6 0%, #f2f6f5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cbd5d6), color-stop(100%, #f2f6f5));
+    background: -webkit-linear-gradient(top, #cbd5d6 0%, #f2f6f5 100%);
+}
+
+.deneme {
+    padding: 3px 10px 0 10px;
+    width: 120px;
+    height: 137px;
+    display: inline-block;
+    margin: -40px 0 0 -70px;
+    color: #555;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Dosis';
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.deneme span { font-size: 30px; font-weight: 200; }
+.deneme strong { position: absolute; right: 10px; top: 25px; font-size: 34px; }
+/*конец*/
+
+/*конец*/
+.maxValue,.minValue, #text{
+    font-family: 'Dosis';
+    font-size: 12px!important;
+}
+.main-container
+{   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    max-width: 1000px;
+    min-width: 100px;
+    min-height: 100px;
+    
+}
+
+@keyframes spin
+{
+    100% {
+        background-position: 0 500px;
+      }
+}

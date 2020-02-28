@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<head>
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+  <title>Smart Home</title>
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERAAAQAAAREAEAABAAABEQAQAAEAAAERABAAAQAAAREAEAABAREBEQAQAAEBEQERABAAAQERAREAEAERAAAAAAAREBEQAAAAAREAAREAAAAREAAAERAAAREAAAABEREREAAAAAAREREAAAAAAAARAAAAD//wAAwAMAAN8bAADfGwAA3xsAAN8bAADRGwAA0RsAANEbAAAf+AAAj/EAAMfjAADjxwAA8A8AAPgfAAD+fwAA"
+    rel="icon" type="image/x-icon" />
+</head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Chart.min.css">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <script src="site.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="Chart.bundle.min.js"></script>
+<body>
+
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img width="60px" src="icon.png"alt="..."></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <div class="container center">
+      <div class="de">
+          <div class="den">
+              <div class="dene">
+                  <div class="denem">
+                      <div class="deneme">
+                          <div class="value"><span class="tValue" style="font-size: 22px;">Loading...</span><span style="font-size: 25px;">&degC</span></div>
+                          <div id="text">
+                              max <span class="maxValue">0</span><span style="font-size: 12px;">&degC</span>
+                              min <span class="minValue">0</span><span style="font-size: 12px;">&degC</span>  
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="center">
+  <div class="main-container">
+    <canvas id="myChart" height="500" width="1000"></canvas>
+    <div class="center">
+    <div style="margin-left: 10px;">
+        <button class="btn btn-primary"onclick="removeData()">Очистить</button>
+        <!-- <button class="btn btn-primary" onclick="scaleUp()">Масштаб -</button>
+        <button class="btn btn-primary" onclick="scaleDown()">Масштаб +</button> -->
+        <button id="Stop" class="btn btn-primary" onclick="toogle(this)">Останов.</button>
+    </div>
+  </div>
+</div>
+</div></div>
+  <footer>
+    <h10>2020, All rights reserved</h10>
+  </footer>
+
+</body>
+
+</html>
